@@ -38,7 +38,7 @@ open reports/allure-html/index.html
 - Environment variables: `.env` (см. `.env`)
 - YAML path override: `export CONFIG_YAML=/absolute/path/to/config.yaml`
 
-## 6) CI/CD
+## 5) CI/CD
 - Workflow: `.github/workflows/ci.yml`
   - Runs pytest, downloads `allure-results` artifact
   - Generates static HTML and downloads `allure-html` artifact
