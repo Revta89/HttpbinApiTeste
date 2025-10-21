@@ -1,0 +1,12 @@
+httpbin:
+  base_url: https://httpbin.org
+http:
+  timeout_seconds: 10
+retry:
+  max_attempts: 3
+  backoff_seconds: 0.5
+reporting:
+  allure_dir: reports/allure
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
